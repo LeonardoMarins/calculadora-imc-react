@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid hsl(0, 0%, 0%);
+    max-width: 360px;
+    height: 200px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5em;
+    position: relative;
+    border-radius: 10px;
+}
+
+input {
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+h1 {
+    white-space: nowrap;
+    position: absolute;
+    top: 0px;
+    left: 55px;
+}
+
+form  input:first-child {
+    margin-top: 50px;
+}
+
+.table {
+    max-width: 360px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid black; /* Adiciona borda de 1px preta a todas as células */
+    padding: 8px; /* Adiciona um espaçamento interno para melhor aparência */
+    text-align: left; /* Alinha o texto à esquerda nas células */
+}
